@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca de Usuários GitHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ebd04b;
+background: radial-gradient(circle, rgba(235, 208, 75, 1) 0%, rgba(252, 70, 106, 1) 100%);
+    }
+    input, button {
+      padding: 8px;
+      font-size: 16px;
+    }
+    ul {
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+      background-color: #dddddd48;
+    }
+    li {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    #cabeçalho {
+      margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div id="cabeçalho">
+  <h1>Buscar Usuários no GitHub</h1>
+  <input type="text" id="searchInput" placeholder="Digite o nome do usuário">
+  <button onclick="buscarUsuarios()">Buscar</button>
+  </div>
+
+  <ul id="resultados"></ul>
+
+  <script src="usuario procurado.js"></script>
+
+</body>
+</html>
